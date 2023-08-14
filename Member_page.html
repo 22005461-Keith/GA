@@ -1,0 +1,126 @@
+<!-- I declare that this code was written by me. 
+I will not copy or allow others to copy my code. 
+I understand that copying code is considered as plagiarism.
+
+Student Name: Keith Tan Liang Sheng
+Student ID: 22005461
+Class: E63C
+Date/Time Last modified: 2/8/2023, 10:47pm -->
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <title>[Your Name Here]'s webpage</title>
+</head>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+    /* This is the start of navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+/* This is the end of navigation bar */
+
+/* Start of image in text*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("About.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* End of image in text*/
+
+</style>
+<body>
+    <!-- Start of navigation bar -->
+    <!-- This is for top navigation to the left -->
+    <div class="topnav">
+        <a class="active" href="Public_page.html">Home</a>
+        <a href="Payment_page.html">Start Transferring</a>
+        <a href="Transaction_history.html">Track my spendings</a>
+        <a href="Rating.html">Rating</a>
+
+        <!-- This is for top navigation to the right -->
+        <div class="topnav-right">
+          <a href="Login.html">Log Out</a>
+        </div>
+      </div>
+      <!-- End of navigation bar -->
+
+      <!-- Start of image in text -->
+      <div class="container">
+        <div class="bg">
+        <img src="About.jpg" alt="Notebook" style="width:100%; height: 100%;">
+        <div class="content">
+          <h1>About Us</h1>
+          <p>
+            At Kebank, we help clients to make their remittance experience more smooth and easier by giving them the lowest rate in the market.
+            <br> <br> We aim to provide our customers with top-notch services and make transferring of money to their family overseas easy.
+          </p>
+        </div>
+    </div>
+      </div>
+        <!-- End of image in text -->
+</body>
+</html>
